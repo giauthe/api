@@ -1,0 +1,26 @@
+Robot.iml
+vcs.xml
+misc.xml
+modules.xml
+workspace.xml
+log.html
+report.html
+output.xml
+*.pyc
+.pabotsuitenames
+
+# OS metadata
+.DS_Store
+
+# Idea IDE
+*.iml
+.idea
+
+# Eclipse IDE
+.project
+.pydevproject
+
+#results and reports
+results/pabot_results
+*.log
+selenium-screenshot-*.png

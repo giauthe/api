@@ -1,0 +1,54 @@
+#for API
+run_on_failure: Capture Page Screenshot
+channel_gateway_host: https://ami-channel-gateway-qa.public.ascendmoney-dev.internal
+host_api_gateway_local:  https://ami-api-gateway.equator-default-qa.svc
+api_gateway_context_root:   ami-api-gateway
+api_version: v4.7
+google_url: https://www.google.com/
+
+
+partner_management_host:  http://localhost:8084/partner-management
+router_service_host: http://localhost:8083
+
+# api gateway pipeline
+local_api_gateway_host: https://local-api-gateway-dev.orbit-dev.ascendtechnology.internal
+global_api_gateway_host: https://global-api-gateway-dev.orbit-dev.ascendtechnology.internal
+
+
+#OPS
+ops_url: https://operation-portal-dev.orbit-dev.ascendtechnology.internal/dashboard
+ops_username: test_ops
+ops_password: test
+
+#Database
+router_db_host: rds-orbit-irs-db-dev.orbit-dev.ascendtechnology.internal
+router_db_name: router
+router_db_pass: Welcome1
+router_db_port: 5432
+router_db_user: orbituser
+
+#Database
+partner_db_host: rds-orbit-irs-db-dev.orbit-dev.ascendtechnology.internal
+partner_db_name: partner_management
+partner_db_pass: Welcome1
+partner_db_port: 5432
+partner_db_user: orbituser
+
+#keycloak
+keycloak_get_token_endpoint: http://ec2-acm-orbit-keycloak-dev.orbit-dev.ascendtechnology.internal:8080/auth/realms/Fullstack/protocol/openid-connect/token
+keycloak_username: test_ops
+keycloak_password: test
+keycloak_client_secret: ab6b3225-8655-4d18-9401-255a5ebd7b87
+keycloak_client_id: ops
+keycloak_endpoint: http://ec2-acm-orbit-keycloak-dev.orbit-dev.ascendtechnology.internal:8080
+
+#partner_info
+sender_partner: WUN
+receiver_partner: WUN
+
+#authorization_api
+authorization_api_username: WUN
+authorization_api_password: 123456
+
+
+

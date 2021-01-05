@@ -1,0 +1,104 @@
+## corridor table
+#corridor_id_1: 111
+#corridor_country_code_1: THA
+#corridor_country_name_1: Thailand
+#corridor_transaction_type_1: DCW
+#corridor_direction_1: RECEIVER
+#
+#corridor_id_2: 222
+#corridor_country_code_2: USA
+#corridor_country_name_2: USA
+#corridor_transaction_type_2: DCW
+#corridor_direction_2: SENDER
+#
+#corridor_id_3: 333
+#corridor_country_code_3: VN
+#corridor_country_name_3: VIE
+#corridor_transaction_type_3: DCW
+#corridor_direction_3: SENDER
+#
+#corridor_id_4: 444
+#corridor_country_code_4: THA
+#corridor_country_name_4: Thailand
+#corridor_transaction_type_4: CSH
+#corridor_direction_4: RECEIVER
+#
+#corridor_id_5: 555
+#corridor_country_code_5: USA
+#corridor_country_name_5: USA
+#corridor_transaction_type_5: CSH
+#corridor_direction_5: SENDER
+#
+## corridor_currency_mapping table
+#corridorCurrency_id_1: 999
+#corridorCurrency_corridor_id_1: 111
+#corridorCurrency_currency_code_1: USD
+#
+#corridorCurrency_id_2: 888
+#corridorCurrency_corridor_id_2: 222
+#corridorCurrency_currency_code_2: USD
+#
+#corridorCurrency_id_3: 777
+#corridorCurrency_corridor_id_3: 444
+#corridorCurrency_currency_code_3: USD
+#
+#corridorCurrency_id_4: 666
+#corridorCurrency_corridor_id_4: 555
+#corridorCurrency_currency_code_4: USD
+#
+## corridor_partner_mapping table
+#corridorPartner_id_1: 999
+#corridorPartner_corridor_id_1: 111
+#corridorPartner_partner_code_1: TMN
+#
+#corridorPartner_id_2: 888
+#corridorPartner_corridor_id_2: 222
+#corridorPartner_partner_code_2: WUN
+#
+#corridorPartner_id_3: 777
+#corridorPartner_corridor_id_3: 444
+#corridorPartner_partner_code_3: TMN
+#
+#corridorPartner_id_4: 666
+#corridorPartner_corridor_id_4: 555
+#corridorPartner_partner_code_4: WUN
+#
+## route table
+#route_id_1: 999
+#route_sender_partner_code_1: WUN
+#route_sender_corridor_id_1: 222
+#route_receiver_partner_code_1: TMN
+#route_receiver_corridor_id_1: 111
+#route_transaction_type_1: DCW
+#route_currency_code_1: USD
+#
+#route_id_2: 888
+#route_sender_partner_code_2: WUN
+#route_sender_corridor_id_2: 555
+#route_receiver_partner_code_2: TMN
+#route_receiver_corridor_id_2: 444
+#route_transaction_type_2: CSH
+#route_currency_code_2: USD
+
+
+# corridor table
+corridor_id_1: 111
+corridor_sender_country_code_1: USA
+corridor_sender_partner_code_1: WUN
+corridor_receiver_partner_code_1: TMN
+corridor_receiver_country_code_1: THA
+corridor_transaction_type_1: DCW
+corridor_currency_code_1: USD
+
+corridor_id_2: 222
+corridor_sender_country_code_2: USA
+corridor_sender_partner_code_2: WUN
+corridor_receiver_partner_code_2: TMN
+corridor_receiver_country_code_2: THA
+corridor_transaction_type_2: CSH
+corridor_currency_code_2: USD
+
+
+
+
+

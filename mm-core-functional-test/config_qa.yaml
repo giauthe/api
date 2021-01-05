@@ -1,0 +1,57 @@
+#for API
+run_on_failure: Capture Page Screenshot
+#api_gateway: http://gw-alpha.digital.vn
+api_gateway: http://gw-staging.digital.vn
+api_simulator: http://gw-alpha.digital.vn
+client_id: WEB
+client_secret: '123456'
+accept-language_vi: vi
+accept-language_en: en
+signature: '1234'
+
+#db_payment
+db_payment_name: mm_payment
+db_payment_host: 10.255.133.85
+db_payment_port: 3306
+db_payment_user_name: mm_payment
+db_payment_password: 123123a@
+
+#profile
+client_id_app: VTPAY
+
+#db_profile
+db_profile_name: mm_profile
+db_profile_host: 10.255.133.178
+db_profile_port: 3306
+db_profile_user_name: mm_profile
+db_profile_password: 123123a@
+
+#db_payment_history
+db_payment_history_name: mm_payment_history
+db_payment_history_host: 10.255.133.85
+db_payment_history_port: 3306
+db_payment_history_user_name: mm_payment_history
+db_payment_history_password: 123123a@
+
+#db_cdcn_customer_service
+db_cdcn_customer_service_name: cdcn_customer_service
+db_cdcn_customer_service_host: 10.255.133.178
+db_cdcn_customer_service_port: 3306
+db_cdcn_customer_service_user_name: cdcn_customer_service
+db_cdcn_customer_service_password: 123123a@
+
+#db_cdcn_auth_service
+db_cdcn_auth_service_name: cdcn_auth_service
+db_cdcn_auth_service_host: 10.255.133.178
+db_cdcn_auth_service_port: 3306
+db_cdcn_auth_service_user_name: cdcn_auth_service
+db_cdcn_auth_service_password: 123123a@
+
+
+#db_bankplus
+db_db_bankplus_name: bankplus
+db_db_bankplus_host: 10.255.62.206
+db_db_bankplus_port: 1521
+db_db_bankplus_user_name: BANKPLUS
+db_db_bankplus_password: bank#2016
+db_db_bankplus_sid: stagingvds
